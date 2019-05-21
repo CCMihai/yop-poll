@@ -1,0 +1,321 @@
+.basic-yop-poll-container {
+    background-color: #ffffff;
+    border: thin solid #000000;
+    margin-bottom: 15px;
+}
+
+.basic-yop-poll-container .basic-message {
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-left: 10px solid red;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+.basic-yop-poll-container .basic-message p {
+    margin: 0 0 0;
+}
+.basic-error {
+  border-left: 10px solid red !important;
+}
+.basic-success {
+  border-left: 10px solid green !important;
+}
+.gdpr {
+    margin-bottom: 25px;
+    margin-left: 15px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+}
+.gdpr label {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.yop-poll-captcha {
+    margin-bottom: 50px;
+    min-height: 120px;
+    width: auto;
+}
+.yop-poll-pie-chart {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    pointer-events: none;
+}
+canvas.chartjs-render-monitor {
+    -webkit-animation: chartjs-render-animation 0.001s;
+    animation: chartjs-render-animation 0.001s;
+    display: block;
+    min-width: auto;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+.basic-yop-poll-container .basic-overlay {
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+}
+.basic-yop-poll-container .basic-vote-options .btn {
+    margin: 10px 0;
+    background-image: none;
+    color: #ffffff;
+    border: thin solid transparent;
+    text-shadow: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.basic-yop-poll-container .basic-vote-options {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2em;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+.basic-yop-poll-container .basic-vote-options svg,
+.basic-yop-poll-container .basic-vote-options i {
+	margin-right: 5px;
+}
+.basic-yop-poll-container .basic-wordpress button.btn {
+    background-color: #333333;
+}
+.basic-yop-poll-container .basic-facebook button.btn {
+    background-color: #3b5998;
+}
+.basic-yop-poll-container .basic-anonimous button.btn {
+	background-color: #777777;
+}
+.basic-yop-poll-container .basic-vote-options .btn:focus, 
+.basic-yop-poll-container .basic-vote-options .btn:hover {
+    background-color: #e0e0e0;
+	color: #555555;
+}
+
+.basic-yop-poll-container .basic-elements {
+    color: #000000;
+}
+.basic-yop-poll-container .basic-question {
+    margin-top: 15px;
+}
+.basic-yop-poll-container .basic-question-title {
+    padding: 0 15px 10px;
+}
+.basic-yop-poll-container ul.basic-answers li,
+.basic-yop-poll-container ul.results-basic-answers li,
+.basic-yop-poll-container ul.basic-answers,
+.basic-yop-poll-container ul.results-basic-answers {
+    list-style: none;
+}
+.basic-yop-poll-container .h-answers li,
+.basic-yop-poll-container .h-results-answers li {
+    float: left;
+}
+.basic-yop-poll-container .basic-answer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.basic-yop-poll-container .basic-answer .basic-media-vertical {
+    display: inline-block;
+}
+.basic-yop-poll-container .basic-answer .basic-text,
+.basic-yop-poll-container .basic-answer .results-details {
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 0;
+}
+.basic-yop-poll-container .basic-answer .results-details {
+    margin-left: 15px;
+}
+.basic-yop-poll-container .basic-text-vertical,
+.basic-yop-poll-container .basic-text-horizontal {
+    display: flex;
+    align-items: center;
+}
+.basic-answer .basic-input-text {
+    margin-left: -15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.basic-yop-poll-container .basic-stats {
+	margin: 15px auto;
+}
+.basic-yop-poll-container .basic-vote {
+    display: block;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+/* 
+.basic-yop-poll-container .basic-vote a {
+	display: inline-block;
+} 
+.basic-yop-poll-container .basic-results-button,
+.basic-yop-poll-container .basic-back-to-vote-button {
+	color: #ee7600;
+	font-weight: 700;
+    background: transparent;
+}
+*/
+.basic-yop-poll-container .basic-vote-button,
+.basic-yop-poll-container .basic-results-button,
+.basic-yop-poll-container .basic-back-to-vote-button {
+    background-color: #ee7600;
+    border-color: #ee7600; 
+    color: #ffffff; 
+}
+.basic-yop-poll-container .basic-vote-button:active, 
+.basic-yop-poll-container .basic-vote-button:hover,
+.basic-yop-poll-container .basic-vote-button:focus,
+.basic-yop-poll-container .basic-results-button:active,
+.basic-yop-poll-container .basic-results-button:hover,
+.basic-yop-poll-container .basic-results-button:focus,
+.basic-yop-poll-container .basic-back-to-vote-button:active,
+.basic-yop-poll-container .basic-back-to-vote-button:hover,
+.basic-yop-poll-container .basic-back-to-vote-button:focus {
+	background-color: #ee7600;
+    border-color: #ee7600; 
+    color: #ffffff; 
+    outline: 0;
+}
+
+
+.basic-yop-poll-container .results-basic-answers .basic-answer-content {
+	color: #333333;
+}
+.basic-yop-poll-container .results-basic-answers .progress {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-top: 10px;
+}
+.basic-yop-poll-container input[type=checkbox],
+.basic-yop-poll-container input[type=radio] {
+    margin-right: 10px;
+    margin-top: 0;
+}
+.media-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.media-description p {
+    margin-bottom: 0;
+}
+.basic-answer-results {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.basic-answer-total-votes {
+    margin-left: 10px;
+}
+.basic-answer-results-details,
+.basic-answer-total-votes {
+    font-weight: 400;
+}
+
+.basic-yop-poll-container .basic-media-vertical .results-details,
+.basic-yop-poll-container .basic-media-horizontal .results-details,
+.basic-yop-poll-container .basic-video-vertical .results-details,
+.basic-yop-poll-container .basic-video-horizontal .results-details {
+    margin-left: 0;
+}
+.basic-yop-poll-container .basic-media img,
+.basic-yop-poll-container .embed-responsive {
+	margin-bottom: 15px;
+}
+.basic-yop-poll-container .basic-media-horizontal {
+    display: inline-block;
+}
+.basic-yop-poll-container .basic-video-horizontal {
+    display: block;
+}
+.horizontalVideoPoll ul.basic-answers,
+.horizontalVideoPoll ul.results-basic-answers,
+.horizontalImagePoll ul.basic-answers,
+.horizontalImagePoll ul.results-basic-answers {
+    padding-left: 0 !important;
+}
+.basic-yop-poll-container .basic-answer {
+    padding-bottom: 15px;
+}
+
+
+
+/* width for horizontal text poll depending on number of answers/options */
+.horizontalTextPoll ul.basic-answers li,
+.horizontalTextPoll ul.results-basic-answers li {
+    width: 16.66%;
+}
+
+/* width for image / video depending on number of answers/options */
+.horizontalVideoPoll ul.basic-answers li,
+.horizontalVideoPoll ul.results-basic-answers li,
+.horizontalImagePoll ul.basic-answers li,
+.horizontalImagePoll ul.results-basic-answers li {
+    width: 33%;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* width for vertical video poll - optional
+max-width of the video is equal with max-width of the container */
+.basic-video-vertical {
+    max-width: 50%;
+}
+
+@media screen and (max-width: 991.95px) {
+    .horizontalTextPoll ul.basic-answers li,
+    .horizontalTextPoll ul.results-basic-answers li,
+    .horizontalVideoPoll ul.basic-answers li,
+    .horizontalVideoPoll ul.results-basic-answers li,
+    .horizontalImagePoll ul.basic-answers li,
+    .horizontalImagePoll ul.results-basic-answers li {
+        width: 32%;
+    }
+    .basic-video-vertical {
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 767.95px) {
+    .horizontalTextPoll ul.basic-answers li,
+    .horizontalTextPoll ul.results-basic-answers li,
+    .horizontalVideoPoll ul.basic-answers li,
+    .horizontalVideoPoll ul.results-basic-answers li,
+    .horizontalImagePoll ul.basic-answers li,
+    .horizontalImagePoll ul.results-basic-answers li {
+        width: 49%;
+    }
+    .basic-video-vertical {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .horizontalTextPoll ul.basic-answers li,
+    .horizontalTextPoll ul.results-basic-answers li,
+    .horizontalVideoPoll ul.basic-answers li,
+    .horizontalVideoPoll ul.results-basic-answers li,
+    .horizontalImagePoll ul.basic-answers li,
+    .horizontalImagePoll ul.results-basic-answers li {
+        width: 100%;
+    }
+}
+
